@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+</head>
+
+<body>
+    <h2>Form Registrasi</h2>
+    <form action="data.php">
+        <fieldset>
+            <legend>Biodata</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nama">Nama Mahasiswa</label>
+                    </td>
+                    <td>
+                        : <input type="Xtext" name="name" id="name" placeholder="Nama Anda">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nim">No Induk Mahasiswa (NIM)</label>
+                    </td>
+                    <td>
+                        : <input type="number" name="nim" id="nim" placeholder="Nim anda">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat Mahasiswa</td>
+                    <td>
+                        : <textarea name="textarea_form" cols="30" rows="5" placeholder="Ini Textarea"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>
+                        : <input type="date" name="name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Jenis kelamin">Jenis kelamin</label>
+                    </td>
+                    <td>
+                        : <input type="radio" name="radio" value="laki-laki" id="laki-laki" checked><label
+                            for="laki-laki">Laki-Laki</label>
+                        <input type="radio" name="radio" value="perempuan" id="perempuan"><label
+                            for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="foto">Upload Foto</label>
+                    </td>
+                    <td>
+                        : <input type="file" name="foto" id="foto" placeholder="Silahkan upload foto anda">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="url">URL website</label>
+                    </td>
+                    <td>
+                        : <input type="url" name="url" id="url" placeholder="URL anda">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="univ">Perguruan tinggi</label>
+                    </td>
+                    <td>
+                        : <input type="text" name="univ" id="univ">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Info Akun </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        : <input type="email" name="email" id="email" placeholder="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="username">Username</label>
+                    </td>
+                    <td>
+                        : <input type="username" name="username" id="username" placeholder="Username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        : <input type="password" name="password1" id="password1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password2">Ulangi Password</label>
+                    </td>
+                    <td>
+                        : <input type="password" name="password2" id="password2" placeholder="Password anda">
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kemampuan Dasar</legend>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1"><label
+                                for="checkbox1">HTML</label>
+                            <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label
+                                for="checkbox2">CSS</label>
+                            <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label
+                                for="checkbox2">Javascript</label>
+                            <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label
+                                for="checkbox2">PHP</label>
+                            <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label
+                                for="checkbox2">MySql</label>
+                            <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label
+                                for="checkbox2">Laravel</label>
+                            <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label
+                                for="checkbox2">React native </label>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <p>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Simpan">
+            <input type="button" value="Button" onclick="">
+        </p>
+    </form>
+
+</body>
+
+</html>
