@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizontal Navbar</title>
+    <style>
+        nav ul {
+            list-style-type: none;
+            width: fit-content;
+            margin: 0;
+            font-weight: 500;
+            padding: 0;
+            overflow: hidden;
+            text-transform: uppercase;
+            background-color: #ebebeb;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: #464646;
+            text-align: center;
+            padding: 14px 36px;
+            text-decoration: none;
+            border-bottom: 5px solid #ebebeb;
+        }
+
+        nav ul li a:hover {
+            color: white;
+            background-color: #464646;
+            border-bottom: 5px solid #41aaaa;
+        }
+
+        nav ul li a.active {
+            color: white;
+            background-color: #41aaaa;
+        }
+
+        nav ul li a.active:hover {
+            color: white;
+            background-color: #464646;
+            border-bottom-color: 5px solid #41aaaa;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</body>

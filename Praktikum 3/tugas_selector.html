@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>`Penggunaan Selector CSS</title>
+    <style>
+        /* Class Selector */
+        .judul {
+            color: blue;
+        }
+
+        /* Id Selector */
+        #danger {
+            font-weight: bold;
+        }
+
+        /* Descendant Selector */
+        div p {
+            font-style: italic;
+        }
+
+        /* Child Selector */
+        div>p {
+            background-color: lightgrey;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        /* Structural Pseudo Class Selector */
+        tr:first-child {
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        tr:last-child {
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: right;
+            color: red;
+        }
+
+        tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="judul">Selector CSS</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, modi eum! Nobis ipsum amet ducimus tenetur! Fugit dolorum eos facilis laudantium ab officiis ullam nihil? Quos, nam ea! Dolores, alias!</p>
+        <p id="danger">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut porro voluptatum doloremque iure error velit quae nisi cumque recusandae et architecto est molestias, earum, quos nostrum harum, corporis accusamus!</p>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat doloremque quae recusandae amet asperiores debitis dolorum non laborum magnam ex, assumenda vel id, autem et voluptatum minus neque hic nostrum.</p>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+        </tr>
+        <tr>
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+        </tr>
+    </table>
+</body>
+
+</html>

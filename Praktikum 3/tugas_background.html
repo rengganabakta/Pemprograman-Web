@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background</title>
+<style>
+
+    .content {
+        text-align: center;
+        padding: 50px;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    p {
+        color: #dbd8ea;
+    }
+
+    /* Background warna solid */
+    .solid-background {
+        background-color: #ffff00;
+    }
+
+    /* Background campuran */
+    .mixed-background {
+        background: linear-gradient(rgba(13, 172, 23, 0.5), rgba(226, 106, 7, 0.5)), url('assets/background.jpg');
+        background-blend-mode: difference;
+    }
+
+    /* Background gambar */
+    .image-background {
+        background-image: url('assets/background.jpg'); /* Ganti URL dengan gambar yang diinginkan */
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+</head>
+<body>
+
+<!-- Background warna solid -->
+<div class="solid-background content">
+    <h1>Background Warna Solid</h1>
+    <p>Ini adalah contoh background dengan warna solid.</p>
+</div>
+
+<!-- Background campuran -->
+<div class="mixed-background content">
+    <h1>Background Campuran</h1>
+    <p>Ini adalah contoh background dengan campuran warna dan gambar.</p>
+</div>
+
+<!-- Background gambar -->
+<div class="image-background content">
+    <h1>Background Gambar</h1>
+    <p>Ini adalah contoh background dengan gambar.</p>
+</div>
+
+</body>
+</html>
