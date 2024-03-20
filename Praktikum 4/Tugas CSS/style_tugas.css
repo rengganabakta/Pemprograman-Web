@@ -1,0 +1,143 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #e5e5e5, #9a9a9a);
+}
+
+.container {
+    display: flex;  
+}
+
+/* Sidebar */
+.sidebar {
+    width: 13%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #924dbf;
+    background-image: linear-gradient(to bottom, #924dbf, #0f0529);
+}
+
+.sidebar nav ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+.sidebar nav ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 5vh 5vh;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 3vh;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+/* Hero */
+.containerHero{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    height: 80vh;
+    width: 100vw;
+    margin-top: auto;
+}
+
+.content h1 {
+    font-size: 4rem;
+    font-weight: 350;
+    margin: 0% 0% 0% 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2%;
+
+}
+
+.content h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0% 3% 0% 3%;
+
+}
+
+.content p {
+    font-size: 2vh;
+    font-weight: 350;
+    padding-left: 2%;
+    max-width: 50vw;
+}
+
+.imgWh2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imgWh2 img {
+    min-width: 100px;
+    width: 15%;
+    height: 15%;
+    margin-left: 15vh;
+}
+
+.imgWh2 h2 {
+    padding-left: 2%;
+    margin: 0;
+}
+
+.action-btn {
+    margin: 100px 2%;
+    padding: 8px 20px 8px 20px;
+    border-radius: 15px;
+    background-color: #494848;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* FOOTER */
+/* Footer */
+.footer {
+    background-color: #333; /* Example background color */
+    color: white; /* Example text color */
+    margin-top: auto;
+}
+
+.footer footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 0 10px;
+}
+
+.footer ul li img {
+    width: 30px; /* Adjust image size as needed */
+    height: 30px; /* Adjust image size as needed */
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
