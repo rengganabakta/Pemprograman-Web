@@ -54,10 +54,11 @@ body {
     height: 80vh;
     width: 100vw;
     margin-top: auto;
+    color: #100013;
 }
 
 .content h1 {
-    font-size: 4rem;
+    font-size: 5vh;
     font-weight: 350;
     margin: 0% 0% 0% 0%;
     display: flex;
@@ -68,16 +69,16 @@ body {
 }
 
 .content h2 {
-    font-size: 3rem;
+    font-size: 5vh;
     font-weight: 800;
     margin: 0% 3% 0% 3%;
-
 }
 
 .content p {
     font-size: 2vh;
     font-weight: 350;
     padding-left: 2%;
+    margin-bottom: 50px;
     max-width: 50vw;
 }
 
@@ -89,12 +90,14 @@ body {
 
 .imgWh2 img {
     min-width: 100px;
-    width: 15%;
-    height: 15%;
-    margin-left: 15vh;
+    width: 250px;
+    height: auto;
+    padding: 0px 50px 0px 50px;
+
 }
 
 .imgWh2 h2 {
+
     padding-left: 2%;
     margin: 0;
 }
@@ -120,6 +123,7 @@ body {
 .footer footer {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .footer ul {
