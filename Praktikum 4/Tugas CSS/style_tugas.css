@@ -81,6 +81,25 @@ body {
     margin-bottom: 50px;
     max-width: 50vw;
 }
+.imgWh1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.imgWh1 h1 {
+    align-self: flex-start;
+}
+
+.imgWh1 img {
+    display:none;
+    width: 30%;
+    height: auto;
+    background-color: #0f0529;
+}
 
 .imgWh2 {
     display: flex;
