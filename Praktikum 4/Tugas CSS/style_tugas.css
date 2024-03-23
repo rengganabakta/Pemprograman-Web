@@ -29,7 +29,6 @@ body {
 .sidebar nav ul {
     padding: 0;
     margin-top: 150%;
-
 }
 
 .sidebar nav ul li {
@@ -44,9 +43,7 @@ body {
     color: aliceblue;
     font-size: 3vh;
     margin: 10%;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
+    
 }
 
 
@@ -189,4 +186,87 @@ body {
 
 .footer p {
     font-size: 2vh;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: linear-gradient(to right, #fbf5a3d5, #924dbf);
+        
+    }
+    .sidebar {
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+    }
+    
+    .sidebar nav ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .sidebar nav ul li {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 3vh 3vh;
+    }
+    .sidebar nav ul li a {
+        margin: 0;
+        
+    }
+
+    .containerHero{
+        padding: 0;
+    }
+    
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -2%;
+    }
+    .content h1 {
+        width: 100vw;
+        font-size: 4vh;
+        font-weight: 350;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: -2%;
+    }
+    .content h2 {
+        width: 100vw;
+        font-size: 3vh;
+        font-weight: 800;
+        margin: 0% 3% 0% 3%;
+        display: flex;
+        justify-content: center;
+    }
+    .imgWh2 img {
+        display: none;
+    }
+
+    .imgWh1 img {
+        margin-left: 15%;
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+    
+    .imgWh1 h1 {
+        margin-top: 30px;
+    }
 }
