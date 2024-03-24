@@ -27,23 +27,34 @@ body {
 }
 
 .sidebar nav ul {
+    margin-left: -5%;
     padding: 0;
     margin-top: 150%;
 }
 
 .sidebar nav ul li {
+    align-items: center;
+    width: 55%;
     list-style: none;
     text-decoration: none;
     padding: 0;
-    margin: 5vh 5vh;
+    margin: 7vh 5vh;
+    border-radius: 5px;
+}
+
+.sidebar nav ul li:hover{
+    background-color: #924dbf;
+    animation-delay: 0.3ms;
 }
 
 .sidebar nav ul li a {
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: aliceblue;
     font-size: 3vh;
     margin: 10%;
-    
 }
 
 
@@ -219,12 +230,25 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0;
+        padding: 1.5%;
         margin: 3vh 3vh;
+        background-color: transparent;
     }
     .sidebar nav ul li a {
         margin: 0;
-        
+        font-weight: 650;
+        padding: 10%;
+    }
+
+    .sidebar nav ul li:hover{
+        background-color: transparent;
+        animation-delay: 0.3ms;
+    }
+    .sidebar nav ul li a:hover{
+        background-image: linear-gradient(to left, #f4efc4d5, #e5c7f9);
+        animation-delay: 0.3ms;
+        color: #924dbf;
+        border-radius: 5px;
     }
 
     .containerHero{
