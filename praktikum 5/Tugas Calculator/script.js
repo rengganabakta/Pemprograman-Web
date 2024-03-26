@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const secondNumberDisplay = document.querySelector('.second_number');
     const operatorButtons = document.querySelectorAll('.operator button');
     const numberButtons = document.querySelectorAll('.button_angka button');
-    const clearButton = document.querySelector('.operator button:last-of-type');
 
     let firstNumber = '';
     let operand = '';

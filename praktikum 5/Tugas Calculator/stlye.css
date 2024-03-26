@@ -25,15 +25,23 @@
 .button{
     grid-template-columns: repeat(1, 1fr);
 }
-.operator ul {
+.operator {
+    margin: 0;
     padding: 0;
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 0.25fr);
-    grid-gap: 5px;
 }
 
+.operator ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
 
+.finiser{
+    margin-top: 5px;
+}
 .operator button:last-of-type {
     grid-column: span 2; /* Spanning two columns to take up more space */
 }
