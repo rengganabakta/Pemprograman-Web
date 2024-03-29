@@ -58,7 +58,7 @@ class Calculator {
     }
 
     updateDisplay() {
-        this.currentOperandTextElement.innerText =  + this.currentOperand
+        this.currentOperandTextElement.innerText = "= " + this.currentOperand
         if(this.operation != null){
             this.previousOperandTextElement.innerText = this.previousOperand + " " + this.operation + this.currentOperand
         }
