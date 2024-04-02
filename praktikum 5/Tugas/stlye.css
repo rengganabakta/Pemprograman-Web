@@ -34,8 +34,13 @@ body {
     transition-delay: 0.1s;
 }
 
-.span-two {
+.span-two  {
     grid-column: span 2;
+    background-color: orange;
+}
+.span-two button {
+    background-color: orange;
+    z-index: 2;
 }
 
 .output {
