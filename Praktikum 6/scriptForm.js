@@ -33,8 +33,8 @@ function validateForm() {
     }
 
     // Validasi Password
-    if (password === '') {
-        alertMessage('Password tidak boleh kosong');
+    if (!isValidPassword(password)) {
+        alertMessage('Password harus terdiri dari minimal 7 karakter dan setidaknya satu huruf besar');
         isValid = false;
     }
 
@@ -72,4 +72,9 @@ function alertMessage(message) {
 function isValidPhoneNumber(phone) {
     var phonePattern = /^08\d{8,10}$/;
     return phonePattern.test(phone);
+}
+
+function isValidPassword(password) {
+    // Memeriksa apakah password memiliki panjang minimal 7 karakter dan setidaknya satu huruf besar
+    return password.length >= 7 && /[A-Z]/.test(password);
 }
