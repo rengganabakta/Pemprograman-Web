@@ -40,7 +40,7 @@ function validateForm() {
 
     // Validasi Phone Number
     if (!isValidPhoneNumber(phone)) {
-        alertMessage('Phone number harus berupa angka');
+        alertMessage('Phone number harus berupa angka dan memiliki panjang 10-12 digit dan diawali dengan "08"');
         isValid = false;
     }
 
@@ -67,4 +67,9 @@ function isValidPhoneNumber(phone) {
 
 function alertMessage(message) {
     alert(message);
+}
+
+function isValidPhoneNumber(phone) {
+    var phonePattern = /^08\d{8,10}$/;
+    return phonePattern.test(phone);
 }
